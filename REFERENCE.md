@@ -950,7 +950,7 @@ Default value: `undef`
 
 ##### <a name="-redis--slowlog_log_slower_than"></a>`slowlog_log_slower_than`
 
-Data type: `Integer[-1]`
+Data type: `Integer`
 
 Tells Redis what is the execution time, in microseconds, to exceed in order
 for the command to get logged.
@@ -2594,7 +2594,7 @@ Default value: `$redis::replicaof`
 
 ##### <a name="-redis--instance--slowlog_log_slower_than"></a>`slowlog_log_slower_than`
 
-Data type: `Integer[-1]`
+Data type: `Integer`
 
 Tells Redis what is the execution time, in microseconds, to exceed in order
 for the command to get logged.

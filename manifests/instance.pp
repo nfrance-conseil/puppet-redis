@@ -354,7 +354,7 @@ define redis::instance (
   Boolean $slave_serve_stale_data                                = $redis::slave_serve_stale_data,
   Optional[String[1]] $slaveof                                   = $redis::slaveof,
   Optional[String[1]] $replicaof                                 = $redis::replicaof,
-  Integer[-1] $slowlog_log_slower_than                           = $redis::slowlog_log_slower_than,
+  Integer $slowlog_log_slower_than                               = $redis::slowlog_log_slower_than,
   Integer[0] $slowlog_max_len                                    = $redis::slowlog_max_len,
   Boolean $stop_writes_on_bgsave_error                           = $redis::stop_writes_on_bgsave_error,
   Boolean $syslog_enabled                                        = $redis::syslog_enabled,
